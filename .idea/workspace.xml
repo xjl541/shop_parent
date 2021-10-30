@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9788d16-d546-4a50-a37f-4ad2902d82ec" name="Default Changelist" comment="" />
+    <list default="true" id="f9788d16-d546-4a50-a37f-4ad2902d82ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/controller/SkuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/mapper/SkuImageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/mapper/SkuInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/mapper/SkuPlatformPropertyValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/mapper/SkuSalePropertyValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/mapper/xml/SkuImageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/mapper/xml/SkuInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/mapper/xml/SkuPlatformPropertyValueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/mapper/xml/SkuSalePropertyValueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/SkuImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/SkuInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/SkuPlatformPropertyValueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/SkuSalePropertyValueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/impl/SkuImageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/impl/SkuInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/impl/SkuPlatformPropertyValueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/impl/SkuSalePropertyValueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/controller/ProductSpuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/controller/ProductSpuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/mapper/ProductSalePropertyKeyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/mapper/ProductSalePropertyKeyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/mapper/xml/ProductSalePropertyKeyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/mapper/xml/ProductSalePropertyKeyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/ProductSalePropertyKeyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/ProductSalePropertyKeyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/ProductSpuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/ProductSpuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/impl/ProductSalePropertyKeyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/impl/ProductSalePropertyKeyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/impl/ProductSpuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/service/impl/ProductSpuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_product/target/classes/com/atguigu/controller/ProductSpuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_product/target/classes/com/atguigu/controller/ProductSpuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_product/target/classes/com/atguigu/service/ProductSpuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_product/target/classes/com/atguigu/service/ProductSpuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_product/target/classes/com/atguigu/service/impl/ProductSpuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_product/target/classes/com/atguigu/service/impl/ProductSpuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_mbg/src/test/java/com/atguigu/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_mbg/src/test/java/com/atguigu/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_mbg/target/test-classes/com/atguigu/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_mbg/target/test-classes/com/atguigu/CodeGenerator.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +104,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\javase\workspace\guli_shop\code\shop_parent\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -129,7 +167,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductApplication">
+  <component name="RunManager" selected="Application.CodeGenerator">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.CodeGenerator" />
       <module name="shop_mbg" />
@@ -171,9 +209,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodeGenerator" />
         <item itemvalue="Spring Boot.ProductApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="Application.CodeGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +225,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -210,8 +253,16 @@
       <workItem from="1635404192410" duration="1242000" />
       <workItem from="1635468525377" duration="14714000" />
       <workItem from="1635512508322" duration="1605000" />
-      <workItem from="1635568601171" duration="508000" />
+      <workItem from="1635568601171" duration="4243000" />
     </task>
+    <task id="LOCAL-00001" summary="尚品汇项目搭建">
+      <created>1635569232390</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635569232391</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +270,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="尚品汇项目搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="尚品汇项目搭建" />
   </component>
   <component name="WindowStateProjectService">
     <state x="674" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635335984085">
@@ -229,6 +284,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="855" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1635335668438" />
+    <state x="827" y="170" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1635583726770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="827" y="170" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1635583726770" />
+    <state x="404" y="40" key="CommitChangelistDialog2" timestamp="1635569231591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="404" y="40" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1635569231591" />
     <state x="902" y="219" key="FileChooserDialogImpl" timestamp="1635569104252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -237,54 +300,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="800" y="391" width="490" height="265" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1635508930684" />
-    <state width="1180" height="566" key="GridCell.Tab.0.bottom" timestamp="1635514115866">
+    <state x="1072" y="379" key="Github.ShareDialog" timestamp="1635569525402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="566" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1635514115866" />
-    <state width="1180" height="566" key="GridCell.Tab.0.center" timestamp="1635514115866">
+    <state x="1072" y="379" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1635569525402" />
+    <state width="1622" height="192" key="GridCell.Tab.0.bottom" timestamp="1635583414198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="566" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1635514115866" />
-    <state width="1180" height="566" key="GridCell.Tab.0.left" timestamp="1635514115866">
+    <state width="1622" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1635583414198" />
+    <state width="1622" height="192" key="GridCell.Tab.0.center" timestamp="1635583414198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="566" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1635514115866" />
-    <state width="1180" height="566" key="GridCell.Tab.0.right" timestamp="1635514115866">
+    <state width="1622" height="192" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1635583414198" />
+    <state width="1622" height="192" key="GridCell.Tab.0.left" timestamp="1635583414198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="566" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1635514115866" />
-    <state width="1180" height="566" key="GridCell.Tab.1.bottom" timestamp="1635514115867">
+    <state width="1622" height="192" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1635583414198" />
+    <state width="1622" height="192" key="GridCell.Tab.0.right" timestamp="1635583414198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="566" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1635514115867" />
-    <state width="1180" height="566" key="GridCell.Tab.1.center" timestamp="1635514115866">
+    <state width="1622" height="192" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1635583414198" />
+    <state width="1622" height="192" key="GridCell.Tab.1.bottom" timestamp="1635583414198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="566" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1635514115866" />
-    <state width="1180" height="566" key="GridCell.Tab.1.left" timestamp="1635514115866">
+    <state width="1622" height="192" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1635583414198" />
+    <state width="1622" height="192" key="GridCell.Tab.1.center" timestamp="1635583414198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="566" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1635514115866" />
-    <state width="1180" height="566" key="GridCell.Tab.1.right" timestamp="1635514115867">
+    <state width="1622" height="192" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1635583414198" />
+    <state width="1622" height="192" key="GridCell.Tab.1.left" timestamp="1635583414198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="566" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1635514115867" />
-    <state width="1180" height="566" key="GridCell.Tab.2.bottom" timestamp="1635514115867">
+    <state width="1622" height="192" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1635583414198" />
+    <state width="1622" height="192" key="GridCell.Tab.1.right" timestamp="1635583414198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="566" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1635514115867" />
-    <state width="1180" height="566" key="GridCell.Tab.2.center" timestamp="1635514115867">
+    <state width="1622" height="192" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1635583414198" />
+    <state width="1250" height="469" key="GridCell.Tab.2.bottom" timestamp="1635583024021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="566" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1635514115867" />
-    <state width="1180" height="566" key="GridCell.Tab.2.left" timestamp="1635514115867">
+    <state width="1250" height="469" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1635583024021" />
+    <state width="1250" height="469" key="GridCell.Tab.2.center" timestamp="1635583024021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="566" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1635514115867" />
-    <state width="1180" height="566" key="GridCell.Tab.2.right" timestamp="1635514115867">
+    <state width="1250" height="469" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1635583024021" />
+    <state width="1250" height="469" key="GridCell.Tab.2.left" timestamp="1635583024020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1180" height="566" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1635514115867" />
+    <state width="1250" height="469" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1635583024020" />
+    <state width="1250" height="469" key="GridCell.Tab.2.right" timestamp="1635583024021">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1250" height="469" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1635583024021" />
     <state width="299" height="593" key="HiddenNamespacesPopup" timestamp="1635335997629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -293,6 +360,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="491" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1635335612341" />
+    <state x="536" y="248" key="Vcs.Push.Dialog.v2" timestamp="1635569347921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="536" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1635569347921" />
     <state x="686" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1635568602217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
