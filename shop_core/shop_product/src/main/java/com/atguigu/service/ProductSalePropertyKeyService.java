@@ -1,5 +1,6 @@
 package com.atguigu.service;
 
+import com.atguigu.entity.ProductImage;
 import com.atguigu.entity.ProductSalePropertyKey;
 import com.baomidou.mybatisplus.extension.service.IService;
 
@@ -16,4 +17,6 @@ import java.util.List;
 public interface ProductSalePropertyKeyService extends IService<ProductSalePropertyKey> {
 
     List<ProductSalePropertyKey> querySalePropertyByProductId(Long productId);
+
+    List<ProductImage> queryProductImageByProductId(Long productId);
 }
