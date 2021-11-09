@@ -1,7 +1,10 @@
 package com.atguigu.mapper;
 
+import com.atguigu.entity.ProductSalePropertyKey;
 import com.atguigu.entity.SkuInfo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+
+import java.util.List;
 
 /**
  * <p>
@@ -13,4 +16,5 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface SkuInfoMapper extends BaseMapper<SkuInfo> {
 
+    List<ProductSalePropertyKey> getSpuSalePropertyAndSelected(Long productId, Long skuId);
 }

@@ -27,6 +27,23 @@
         </where>
     </select>
 
+    <select id="getPlatformPropertyBySkuId" resultMap="platformPropertyMap">
+        SELECT
+            a.id,
+            a.property_key,
+            a.category_id,
+            a.category_level,
+            b.id property_value_id,
+            b.property_value,
+            b.property_key_id
+        FROM
+            platform_property_name a
+            INNER JOIN platform_property_value b ON a.id = b.property_key_id
+            INNER JOIN sku_platform_property_value c ON c.property_value_id = b.id
+        WHERE
+            c.sku_id = #{skuId}
+    </select>
+
     <resultMap id="platformPropertyMap" type="com.atguigu.entity.PlatformPropertyName" autoMapping="true">
         <id property="id" column="id"></id>
         <collection property="propertyValueList" ofType="com.atguigu.entity.PlatformPropertyValue" autoMapping="true">

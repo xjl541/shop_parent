@@ -8,6 +8,8 @@ public class RedisConst {
 
     public static final String SKUKEY_PREFIX = "sku:";
     public static final String SKUKEY_SUFFIX = ":info";
+    public static final String SKUPRICE_PREFIX = "skuPrice:";
+    public static final String SKUPRICE_SUFFIX=":price";
     //单位：秒
     public static final long SKUKEY_TIMEOUT = 24 * 60 * 60;
     // 防止缓存穿透制作的过期时间
@@ -48,6 +50,8 @@ public class RedisConst {
 
     //用户锁定时间 单位：秒
     public static final int PREPARE_SECKILL_LOCK_TIME = 60 * 60 * 1;
+
+
 
 
 }

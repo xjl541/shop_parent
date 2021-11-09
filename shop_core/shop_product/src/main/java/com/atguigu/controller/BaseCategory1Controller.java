@@ -1,6 +1,7 @@
 package com.atguigu.controller;
 
 
+import com.alibaba.fastjson.JSONObject;
 import com.atguigu.entity.BaseCategory1;
 import com.atguigu.entity.BaseCategory2;
 import com.atguigu.entity.BaseCategory3;
@@ -8,8 +9,10 @@ import com.atguigu.result.RetVal;
 import com.atguigu.service.BaseCategory1Service;
 import com.atguigu.service.BaseCategory2Service;
 import com.atguigu.service.BaseCategory3Service;
+import com.atguigu.service.BaseCategoryViewService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -38,6 +41,9 @@ public class BaseCategory1Controller {
     @Autowired
     private BaseCategory3Service category3Service;
 
+    @Autowired
+    private BaseCategoryViewService categoryViewService;
+
     @RequestMapping("getCategory1")
     public RetVal getCategory1(){
         List<BaseCategory1> category1List = category1Service.list(null);
@@ -61,6 +67,12 @@ public class BaseCategory1Controller {
     @RequestMapping("hello")
     public String hello(){
         return "hello world";
+    }
+
+    @GetMapping("/getIndexCategoryInfo")
+    public RetVal getIndexCategoryInfo(){
+        List<JSONObject> jsonObjects = categoryViewService.getIndexCategoryInfo();
+        return RetVal.ok(jsonObjects);
     }
 }
 

@@ -1,5 +1,6 @@
 package com.atguigu.controller;
 
+import com.atguigu.client.SearchFeignClient;
 import com.atguigu.entity.ProductImage;
 import com.atguigu.entity.ProductSalePropertyKey;
 import com.atguigu.entity.SkuInfo;
@@ -21,6 +22,9 @@ public class SkuController {
 
     @Autowired
     private SkuInfoService skuInfoService;
+
+    @Autowired
+    private SearchFeignClient searchFeignClient;
 
     // 根据SPU.Id查销售属性   http://127.0.0.1/product/querySalePropertyByProductId/16
     @GetMapping("querySalePropertyByProductId/{productId}")
@@ -58,6 +62,7 @@ public class SkuController {
         skuInfo.setId(skuId);
         skuInfo.setIsSale(0);
         skuInfoService.updateById(skuInfo);
+        searchFeignClient.offSale(skuId);
         return RetVal.ok();
     }
 
@@ -67,6 +72,7 @@ public class SkuController {
         skuInfo.setId(skuId);
         skuInfo.setIsSale(1);
         skuInfoService.updateById(skuInfo);
+        searchFeignClient.onSale(skuId);
         return RetVal.ok();
     }
 }

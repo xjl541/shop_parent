@@ -38,7 +38,7 @@ public class CodeGenerator {
 
         // 3、数据源配置
         DataSourceConfig dataSourceConfig = new DataSourceConfig();
-        dataSourceConfig.setUrl("jdbc:mysql://127.0.0.1:3306/shop_product?serverTimezone=GMT%2B8");
+        dataSourceConfig.setUrl("jdbc:mysql://127.0.0.1:3306/shop_user?serverTimezone=GMT%2B8");
         dataSourceConfig.setDriverName("com.mysql.jdbc.Driver");
         dataSourceConfig.setUsername("root");
         dataSourceConfig.setPassword("123456");
@@ -63,9 +63,9 @@ public class CodeGenerator {
         //strategy.setInclude("platform_property_name","platform_property_value","base_brand");
 //        strategy.setInclude("product_spu","product_sale_property_key","product_sale_property_value","product_image","base_sale_property");
 //        strategy.setInclude("base_sale_property");
-        strategy.setInclude("sku_info","sku_platform_property_value","sku_sale_property_value","sku_image");
-        //strategy.setInclude("base_category_view");
-        //strategy.setInclude("user_info","user_address");
+//        strategy.setInclude("sku_info","sku_platform_property_value","sku_sale_property_value","sku_image");
+//        strategy.setInclude("base_category_view");
+        strategy.setInclude("user_info","user_address");
         //strategy.setInclude("cart_info","order_detail","order_info","payment_info");
 //        strategy.setInclude("seckill_product");
         strategy.setNaming(NamingStrategy.underline_to_camel);//数据库表映射到实体的命名策略

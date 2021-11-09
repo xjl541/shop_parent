@@ -53,4 +53,10 @@ public class PlatformPropertyNameServiceImpl extends ServiceImpl<PlatformPropert
         }
         platformPropertyValueService.saveBatch(propertyValueList);
     }
+
+    @Override
+    public List<PlatformPropertyName> getPlatformPropertyBySkuId(Long skuId) {
+        List<PlatformPropertyName> platformPropertyNameList = baseMapper.getPlatformPropertyBySkuId(skuId);
+        return platformPropertyNameList;
+    }
 }

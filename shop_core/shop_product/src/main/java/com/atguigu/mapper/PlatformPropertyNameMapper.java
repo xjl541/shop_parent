@@ -16,4 +16,6 @@ import java.util.List;
 public interface PlatformPropertyNameMapper extends BaseMapper<PlatformPropertyName> {
 
     List<PlatformPropertyName> getPlatformPropertyByCategoryId(Long category1Id, Long category2Id, Long category3Id);
+
+    List<PlatformPropertyName> getPlatformPropertyBySkuId(Long skuId);
 }

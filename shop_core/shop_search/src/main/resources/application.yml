@@ -1,0 +1,39 @@
+server:
+  port: 8001
+spring:
+  elasticsearch:
+    rest:
+      #uris: http://10.211.55.97:9200
+      uris: http://192.168.43.129:9200
+  application:
+    name: shop-search
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.43.129:8848
+#  data:
+#    elasticsearch:
+#      cluster-nodes: 192.168.43.129:9300
+
+  rabbitmq:
+    host: 192.168.43.129
+    port: 5672
+    username: admin
+    password: 123
+  redis:
+    host: 192.168.43.129
+    port: 6389
+    database: 0
+    timeout: 1800000
+  main:
+    #允许存在多个Feign调用相同Service的接口
+    allow-bean-definition-overriding: true
+
+feign:
+  sentinel:
+    enabled: true
+  client:
+    config:
+      default:
+        readTimeout: 3000
+        connectTimeout: 1000

@@ -8,4 +8,12 @@ public class SleepUtils {
             e.printStackTrace();
         }
     }
+
+    public static void sleepMills(int second) {
+        try {
+            Thread.sleep(second);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }

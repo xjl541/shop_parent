@@ -30,6 +30,9 @@ spring:
     password: 123456
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
-    time-zone: GMT+8
+    time-zone: GMT+8.
+  main:
+    #允许存在多个Feign调用相同Service的接口
+    allow-bean-definition-overriding: true
 fastdfs:
   prefix: http://120.78.229.179/

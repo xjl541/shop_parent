@@ -13,6 +13,10 @@
         <module name="shop_web_utils" />
         <module name="shop_product" />
         <module name="shop_core_utils" />
+        <module name="shop_feign_client" />
+        <module name="shop_web" />
+        <module name="shop_search" />
+        <module name="shop_user" />
         <module name="shop_model" />
       </profile>
     </annotationProcessing>
@@ -22,11 +26,15 @@
       <module name="shop_common_utils" options="-parameters" />
       <module name="shop_core" options="-parameters" />
       <module name="shop_core_utils" options="-parameters" />
+      <module name="shop_feign_client" options="-parameters" />
       <module name="shop_gateway" options="-parameters" />
       <module name="shop_mbg" options="-parameters" />
       <module name="shop_model" options="-parameters" />
       <module name="shop_product" options="-parameters" />
+      <module name="shop_search" options="-parameters" />
+      <module name="shop_user" options="-parameters" />
       <module name="shop_utils" options="-parameters" />
+      <module name="shop_web" options="-parameters" />
       <module name="shop_web_utils" options="-parameters" />
     </option>
   </component>

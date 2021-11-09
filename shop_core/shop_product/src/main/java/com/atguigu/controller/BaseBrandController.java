@@ -71,6 +71,13 @@ public class BaseBrandController {
         return RetVal.ok(brand);
     }
 
+
+    @GetMapping("getBrandById/{brandId}")
+    public BaseBrand getBrandById(@PathVariable Long brandId){
+        BaseBrand brand = brandService.getById(brandId);
+        return brand;
+    }
+
     // 实现文件上传  http://api.gmall.com/product/brand/fileUpload
     @PostMapping("fileUpload")
     public RetVal  fileUpload(MultipartFile file) throws Exception {
