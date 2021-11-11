@@ -12,6 +12,7 @@
         <module name="shop_gateway" />
         <module name="shop_web_utils" />
         <module name="shop_product" />
+        <module name="shop_cart" />
         <module name="shop_core_utils" />
         <module name="shop_feign_client" />
         <module name="shop_web" />
@@ -23,6 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shop_cart" options="-parameters" />
       <module name="shop_common_utils" options="-parameters" />
       <module name="shop_core" options="-parameters" />
       <module name="shop_core_utils" options="-parameters" />

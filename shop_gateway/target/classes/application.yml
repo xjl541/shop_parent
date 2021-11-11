@@ -77,3 +77,6 @@ spring:
           uri: lb://shop-web
           predicates:
             - Host=seckill.gmall.com
+filter:
+  whiteList: "" #  "addCart.html,order.html"
+

@@ -11,7 +11,10 @@
       <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" qname="shop_product" />
+          <node kind="schema">
+            <name qname="shop_order" />
+            <name qname="shop_product" />
+          </node>
         </introspection-scope>
       </schema-mapping>
     </data-source>

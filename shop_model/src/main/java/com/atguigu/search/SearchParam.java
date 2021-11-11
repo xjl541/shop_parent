@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 public class SearchParam {
     //分类id
-    private Long category1Id;;
+    private Long category1Id;
     private Long category2Id;
     private Long category3Id;
     //品牌 brandName=

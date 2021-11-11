@@ -66,16 +66,16 @@ public class WebSkuDetailController {
         });
 
         // 每次访问商品将热度加一
-        CompletableFuture<Void> hotScoreFuture = CompletableFuture.runAsync(() -> {
-            searchFeignClient.incrHotScore(skuId);
-        });
+//        CompletableFuture<Void> hotScoreFuture = CompletableFuture.runAsync(() -> {
+//            searchFeignClient.incrHotScore(skuId);
+//        });
 
         CompletableFuture.allOf(skuInfoFuture,
                 priceFuture
                 , categoryViewFuture,
                 spuSalePropertyListFuture,
-                salePropertyValueIdJsonFuture,
-                hotScoreFuture).join();
+                salePropertyValueIdJsonFuture
+                /*hotScoreFuture*/).join();
 
         model.addAllAttributes(dataMap);
         return "detail/index";
