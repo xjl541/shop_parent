@@ -16,6 +16,7 @@
         <module>shop_search</module>
         <module>shop_user</module>
         <module>shop_cart</module>
+        <module>shop_order</module>
     </modules>
     <dependencies>
         <dependency>

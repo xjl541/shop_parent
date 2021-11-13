@@ -1,5 +1,6 @@
 package com.atguigu.service.impl;
 
+import com.atguigu.entity.UserAddress;
 import com.atguigu.entity.UserInfo;
 import com.atguigu.mapper.UserInfoMapper;
 import com.atguigu.service.UserInfoService;
@@ -7,6 +8,8 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
+
+import java.util.List;
 
 /**
  * <p>
@@ -28,4 +31,6 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
         userInfoQueryWrapper.eq("passwd",password);
         return baseMapper.selectOne(userInfoQueryWrapper);
     }
+
+
 }

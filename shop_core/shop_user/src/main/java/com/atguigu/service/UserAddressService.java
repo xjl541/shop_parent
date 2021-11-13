@@ -3,6 +3,8 @@ package com.atguigu.service;
 import com.atguigu.entity.UserAddress;
 import com.baomidou.mybatisplus.extension.service.IService;
 
+import java.util.List;
+
 /**
  * <p>
  * 用户地址表 服务类
@@ -13,4 +15,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface UserAddressService extends IService<UserAddress> {
 
+    List<UserAddress> getAddressListByUserId(String userId);
 }

@@ -31,7 +31,7 @@ public class ProductSpuController {
     @Autowired
     private BaseSalePropertyService baseSalePropertyService;
 
-    // 根据Id获取SPU列表   http://127.0.0.1/product/queryProductSpuByPage/1/10/61
+    // 根据分类Id获取SPU列表   http://127.0.0.1/product/queryProductSpuByPage/1/10/61
     @GetMapping("queryProductSpuByPage/{pageNum}/{pageSize}/{category3Id}")
     public RetVal queryProductSpuByPage(
             @PathVariable Long pageNum,
@@ -59,4 +59,3 @@ public class ProductSpuController {
         return RetVal.ok();
     }
 }
-

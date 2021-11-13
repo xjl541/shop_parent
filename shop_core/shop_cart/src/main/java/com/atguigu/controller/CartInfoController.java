@@ -73,9 +73,9 @@ public class CartInfoController {
 
     //5.查询选中的商品信息
     @GetMapping("getSelectedProduct/{userId}")
-    public RetVal getSelectedProduct(@PathVariable Long userId){
+    public List<CartInfo> getSelectedProduct(@PathVariable Long userId){
         List<CartInfo> cartInfoList = cartInfoService.getSelectedProduct(userId);
-        return RetVal.ok(cartInfoList);
+        return cartInfoList;
     }
 
     //6.从数据库中查询出最新的购物车信息到redis中

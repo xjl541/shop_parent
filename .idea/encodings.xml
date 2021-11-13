@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/shop_core/shop_cart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop_core/shop_order/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop_core/shop_product/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop_core/shop_search/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop_core/shop_user/src/main/java" charset="UTF-8" />
@@ -13,6 +14,8 @@
     <file url="file://$PROJECT_DIR$/shop_utils/shop_core_utils/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop_utils/shop_web_utils/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop_web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ware-manage/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ware-manage/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

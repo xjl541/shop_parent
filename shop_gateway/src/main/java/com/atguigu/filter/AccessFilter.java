@@ -65,7 +65,7 @@ public class AccessFilter implements GlobalFilter {
 //        3.对于某些资源(我的订单/我的购物车/我的xxx) 必须登录
 //        http://search.gmall.com/order/24
         if (antPathMatcher.match("/order/**",path)){
-            if (!StringUtils.isEmpty(userId)){
+            if (StringUtils.isEmpty(userId)){
                 return writeDataToBrowser(exchange,RetValCodeEnum.NO_PERMISSION);
             }
         }

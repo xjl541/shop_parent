@@ -2,8 +2,10 @@ package com.atguigu.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.atguigu.constant.RedisConst;
+import com.atguigu.entity.UserAddress;
 import com.atguigu.entity.UserInfo;
 import com.atguigu.result.RetVal;
+import com.atguigu.service.UserAddressService;
 import com.atguigu.service.UserInfoService;
 import com.atguigu.util.IpUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
@@ -25,6 +28,9 @@ public class UserController {
 
     @Autowired
     private RedisTemplate redisTemplate;
+
+    @Autowired
+    private UserAddressService userAddressService;
 
     @PostMapping("login")
     public RetVal login(@RequestBody UserInfo userInfo, HttpServletRequest request){
@@ -59,5 +65,11 @@ public class UserController {
         String userKey = RedisConst.USER_LOGIN_KEY_PREFIX + token;
         redisTemplate.delete(userKey);
         return RetVal.ok();
+    }
+
+    @GetMapping("getAddressListByUserId/{userId}")
+    public List<UserAddress> getAddressListByUserId(@PathVariable String userId){
+        List<UserAddress> userAddressList = userAddressService.getAddressListByUserId(userId);
+        return userAddressList;
     }
 }

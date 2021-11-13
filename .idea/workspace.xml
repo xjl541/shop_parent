@@ -1,107 +1,576 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9788d16-d546-4a50-a37f-4ad2902d82ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/CartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/controller/CartInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/controller/PaymentInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/entity/CartInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/entity/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/entity/OrderInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/entity/PaymentInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/mapper/CartInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/mapper/OrderDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/mapper/OrderInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/mapper/PaymentInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/mapper/xml/CartInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/mapper/xml/OrderDetailMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/mapper/xml/OrderInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/mapper/xml/PaymentInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/AsyncCartInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/CartInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/OrderDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/OrderInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/PaymentInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/impl/AsyncCartInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/impl/CartInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/impl/OrderInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/impl/PaymentInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/CartApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/controller/CartInfoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/controller/OrderDetailController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/controller/OrderInfoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/controller/PaymentInfoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/entity/CartInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/entity/OrderDetail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/entity/OrderInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/entity/PaymentInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/mapper/CartInfoMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/mapper/OrderDetailMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/mapper/OrderInfoMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/mapper/PaymentInfoMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/mapper/xml/CartInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/mapper/xml/OrderDetailMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/mapper/xml/OrderInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/mapper/xml/PaymentInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/AsyncCartInfoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/CartInfoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/OrderDetailService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/OrderInfoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/PaymentInfoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/impl/AsyncCartInfoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/impl/CartInfoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/impl/OrderDetailServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/impl/OrderInfoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/impl/PaymentInfoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_user/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/UserApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/mapper/UserAddressMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/mapper/UserInfoMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/mapper/xml/UserAddressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/mapper/xml/UserInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/service/UserAddressService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/service/UserInfoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/service/impl/UserAddressServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/service/impl/UserInfoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_feign_client/src/main/java/com/atguigu/client/CartFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_feign_client/target/classes/com/atguigu/client/CartFeignClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_gateway/src/main/java/com/atguigu/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_gateway/src/main/java/com/atguigu/filter/AccessFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_gateway/target/classes/com/atguigu/config/RedisConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_gateway/target/classes/com/atguigu/filter/AccessFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_web/src/main/java/com/atguigu/controller/WebCartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_web/src/main/java/com/atguigu/controller/WebLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_web/target/classes/com/atguigu/controller/WebCartController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_web/target/classes/com/atguigu/controller/WebCartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_web/target/classes/com/atguigu/controller/WebLoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop_web/target/classes/com/atguigu/controller/WebLoginController.java" afterDir="false" />
+    <list default="true" id="f9788d16-d546-4a50-a37f-4ad2902d82ec" name="Default Changelist" comment="订单功能-未用消息队列">
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/META-INF/shop_cart.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_order/shop_order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_order/src/main/java/com/atguigu/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_order/src/main/java/com/atguigu/controller/OrderInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_order/src/main/java/com/atguigu/service/impl/OrderInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_order/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_order/target/classes/com/atguigu/OrderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_order/target/classes/com/atguigu/controller/OrderInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_order/target/classes/com/atguigu/service/OrderInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_core/shop_order/target/classes/com/atguigu/service/impl/OrderInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_feign_client/src/main/java/com/atguigu/client/OrderFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_feign_client/src/main/java/com/atguigu/client/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_feign_client/target/classes/com/atguigu/client/OrderFeignClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_feign_client/target/classes/com/atguigu/client/UserFeignClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_mbg/src/main/java/com/atguigu/controller/CartInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_web/src/main/java/com/atguigu/controller/WebOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_web/target/classes/com/atguigu/controller/WebOrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop_web/target/classes/com/atguigu/controller/WebOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/WareApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/bean/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/bean/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/bean/WareInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/bean/WareOrderTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/bean/WareOrderTaskDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/bean/WareSku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/bean/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/bean/enums/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/bean/enums/PaymentWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/bean/enums/ProcessStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/constant/MqConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/controller/GwareController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/enums/TaskStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/mapper/WareInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/mapper/WareOrderTaskDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/mapper/WareOrderTaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/mapper/WareSkuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/mq/WareConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/service/GwareService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/service/impl/GwareServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/java/com/atguigu/gmall/ware/util/HttpclientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/com/atguigu/gmall/ware/mapper/WareInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/com/atguigu/gmall/ware/mapper/WareSkuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/datagrid-detailview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/easyloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/jquery.easyui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.combobox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.combogrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.combotree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.combotreegrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.datagrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.datalist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.datebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.datetimebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.datetimespinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.draggable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.droppable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.filebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.linkbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.menubutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.messager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.numberbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.numberspinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.passwordbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.progressbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.propertygrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.resizable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.searchbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.splitbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.switchbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.tagbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.textbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.timespinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.treegrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.validatebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/plugins/jquery.window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/angular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/datalist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/filebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/passwordbox_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/passwordbox_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/tagbox_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/numberbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/passwordbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/radiobutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/switchbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/tagbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/textbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/black/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/datalist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/filebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/passwordbox_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/passwordbox_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/tagbox_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/numberbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/passwordbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/radiobutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/switchbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/tagbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/textbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/bootstrap/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/datalist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/filebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/passwordbox_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/passwordbox_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/tagbox_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/numberbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/passwordbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/radiobutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/switchbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/tagbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/textbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/default/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/datalist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/filebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/passwordbox_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/passwordbox_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/tagbox_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/numberbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/passwordbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/radiobutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/switchbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/tagbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/textbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/gray/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/cut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/edit_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/edit_remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/filesave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/filter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/large_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/large_clipart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/large_picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/large_shapes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/large_smartart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/mini_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/mini_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/mini_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/reload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/sum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/icons/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/datalist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/filebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/passwordbox_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/passwordbox_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/tagbox_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/numberbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/passwordbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/radiobutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/switchbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/tagbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/textbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/material/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/datalist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/filebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/passwordbox_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/passwordbox_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/tagbox_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/numberbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/passwordbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/radiobutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/switchbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/tagbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/textbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/metro/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/static/easyui/themes/mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/templates/orderTaskList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/src/main/resources/templates/wareSkuListPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/ServiceWareApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/WareApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/bean/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/bean/OrderInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/bean/WareInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/bean/WareOrderTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/bean/WareOrderTaskDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/bean/WareSku.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/bean/enums/OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/bean/enums/PaymentStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/bean/enums/PaymentWay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/bean/enums/ProcessStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/constant/MqConst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/controller/GwareController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/enums/TaskStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/mapper/WareInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/mapper/WareInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/mapper/WareOrderTaskDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/mapper/WareOrderTaskMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/mapper/WareSkuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/mapper/WareSkuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/mq/WareConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/service/GwareService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/service/impl/GwareServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ware-manage/target/classes/com/atguigu/gmall/ware/util/HttpclientUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3b52e203-92b4-4830-ae14-29a0075d8289.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3b52e203-92b4-4830-ae14-29a0075d8289.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop_core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/controller/CartInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/controller/CartInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/controller/OrderDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_mbg/src/main/java/com/atguigu/controller/OrderDetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/controller/OrderInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_mbg/src/main/java/com/atguigu/controller/OrderInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/controller/PaymentInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_mbg/src/main/java/com/atguigu/controller/PaymentInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/entity/CartInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_mbg/src/main/java/com/atguigu/entity/CartInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/entity/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_mbg/src/main/java/com/atguigu/entity/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/entity/OrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_mbg/src/main/java/com/atguigu/entity/OrderInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/entity/PaymentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_mbg/src/main/java/com/atguigu/entity/PaymentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/mapper/OrderDetailMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_order/src/main/java/com/atguigu/mapper/OrderDetailMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/mapper/OrderInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_order/src/main/java/com/atguigu/mapper/OrderInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/mapper/PaymentInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/mapper/xml/OrderDetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_order/src/main/java/com/atguigu/mapper/xml/OrderDetailMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/mapper/xml/OrderInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_order/src/main/java/com/atguigu/mapper/xml/OrderInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/mapper/xml/PaymentInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/OrderDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_order/src/main/java/com/atguigu/service/OrderDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/OrderInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_order/src/main/java/com/atguigu/service/OrderInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/PaymentInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/impl/OrderDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_order/src/main/java/com/atguigu/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/impl/OrderInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/service/impl/PaymentInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/controller/CartInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/controller/CartInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/controller/OrderDetailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/controller/OrderInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/controller/PaymentInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/entity/CartInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/entity/OrderDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/entity/OrderInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/entity/PaymentInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/mapper/OrderDetailMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_order/target/classes/com/atguigu/mapper/OrderDetailMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/mapper/OrderInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_order/target/classes/com/atguigu/mapper/OrderInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/mapper/PaymentInfoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/mapper/xml/OrderDetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_order/target/classes/com/atguigu/mapper/xml/OrderDetailMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/mapper/xml/OrderInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_order/target/classes/com/atguigu/mapper/xml/OrderInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/mapper/xml/PaymentInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/OrderDetailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_order/target/classes/com/atguigu/service/OrderDetailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/OrderInfoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/PaymentInfoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/impl/CartInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/impl/CartInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/impl/OrderDetailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_order/target/classes/com/atguigu/service/impl/OrderDetailServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/impl/OrderInfoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_cart/target/classes/com/atguigu/service/impl/PaymentInfoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/controller/ProductSpuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_product/src/main/java/com/atguigu/controller/ProductSpuController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop_core/shop_user/src/main/java/com/atguigu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_user/src/main/java/com/atguigu/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_user/src/main/java/com/atguigu/service/UserAddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_user/src/main/java/com/atguigu/service/UserAddressService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop_core/shop_user/src/main/java/com/atguigu/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_user/src/main/java/com/atguigu/service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_user/src/main/java/com/atguigu/service/impl/UserAddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_user/src/main/java/com/atguigu/service/impl/UserAddressServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop_core/shop_user/src/main/java/com/atguigu/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_user/src/main/java/com/atguigu/service/impl/UserInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_core/shop_user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop_gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop_gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_mbg/src/main/java/com/atguigu/controller/UserAddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/controller/OrderDetailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_mbg/src/main/java/com/atguigu/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_cart/src/main/java/com/atguigu/controller/OrderInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_mbg/src/main/java/com/atguigu/entity/UserAddress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_mbg/src/main/java/com/atguigu/entity/UserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_mbg/src/test/java/com/atguigu/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_mbg/src/test/java/com/atguigu/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_mbg/target/test-classes/com/atguigu/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_mbg/target/test-classes/com/atguigu/CodeGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_model/src/main/java/com/atguigu/search/SearchParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_model/src/main/java/com/atguigu/search/SearchParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_web/src/main/java/com/atguigu/controller/WebSkuDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_web/src/main/java/com/atguigu/controller/WebSkuDetailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_web/target/classes/com/atguigu/controller/WebSkuDetailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_web/target/classes/com/atguigu/controller/WebSkuDetailController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_web/target/classes/com/atguigu/controller/WebSkuDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_web/target/classes/com/atguigu/controller/WebSkuDetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/service/UserAddressService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/service/UserAddressService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/service/impl/UserAddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/service/impl/UserAddressServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/service/impl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_core/shop_user/target/classes/com/atguigu/service/impl/UserInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_feign_client/src/main/java/com/atguigu/client/CartFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_feign_client/src/main/java/com/atguigu/client/CartFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_feign_client/target/classes/com/atguigu/client/CartFeignClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_feign_client/target/classes/com/atguigu/client/CartFeignClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_gateway/src/main/java/com/atguigu/filter/AccessFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop_gateway/src/main/java/com/atguigu/filter/AccessFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_gateway/target/classes/com/atguigu/filter/AccessFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop_gateway/target/classes/com/atguigu/filter/AccessFilter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +682,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop_core" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ware-manage" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42962283" />
@@ -221,11 +690,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.atguigu.config" />
       <recent name="com.atguigu.client" />
+      <recent name="com.atguigu.controller" />
+      <recent name="com.atguigu.config" />
       <recent name="executor" />
       <recent name="com.atguigu.async" />
-      <recent name="com.atguigu.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\javase\workspace\guli_shop\code\shop_parent\shop_web\src\main\resources" />
@@ -239,7 +708,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductApplication">
+  <component name="RunManager" selected="Application.WareApplication">
+    <configuration name="WareApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.gmall.ware.WareApplication" />
+      <module name="ware-manage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.ware.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="shop_cart" />
       <extension name="coverage">
@@ -253,15 +735,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="shop_gateway" />
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop_order" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.controller.*" />
+          <option name="PATTERN" value="com.atguigu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.GatewayApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.OrderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -292,33 +774,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="shop_web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.WebApplication" />
+    <configuration name="WareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ware-manage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.ware.WareApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.GatewayApplication" />
-      <item itemvalue="Spring Boot.WebApplication" />
+      <item itemvalue="Application.WareApplication" />
+      <item itemvalue="Spring Boot.WareApplication" />
+      <item itemvalue="Spring Boot.ProductApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.CartApplication" />
-      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Application.WareApplication" />
         <item itemvalue="Spring Boot.CartApplication" />
-        <item itemvalue="Spring Boot.ProductApplication" />
         <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="Spring Boot.WebApplication" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.ProductApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -326,17 +803,12 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.26104745" />
+          <option name="contentProportion" value="0.23395722" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -372,7 +844,9 @@
       <workItem from="1636332063507" duration="17779000" />
       <workItem from="1636419651738" duration="15966000" />
       <workItem from="1636505607963" duration="18767000" />
-      <workItem from="1636594417511" duration="7986000" />
+      <workItem from="1636594417511" duration="13801000" />
+      <workItem from="1636686734551" duration="16303000" />
+      <workItem from="1636763453348" duration="261000" />
     </task>
     <task id="LOCAL-00001" summary="尚品汇项目搭建">
       <created>1635569232390</created>
@@ -402,7 +876,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636426193923</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="购物车功能实现">
+      <created>1636611412935</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636611412935</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,17 +898,19 @@
     <MESSAGE value="SKU后台操作" />
     <MESSAGE value="添加分布式锁" />
     <MESSAGE value="ES" />
-    <option name="LAST_COMMIT_MESSAGE" value="ES" />
+    <MESSAGE value="购物车功能实现" />
+    <MESSAGE value="订单功能-未用消息队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="订单功能-未用消息队列" />
   </component>
   <component name="WindowStateProjectService">
     <state x="577" y="60" key="#ProductApplication" timestamp="1635847866101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="577" y="60" key="#ProductApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1635847866101" />
-    <state x="334" y="97" key="#Project_Structure" timestamp="1636185495598">
+    <state x="334" y="97" key="#Project_Structure" timestamp="1636699755308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="97" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1636185495598" />
+    <state x="334" y="97" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1636699755308" />
     <state x="674" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635335984085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -444,18 +927,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="827" y="170" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1635583726770" />
-    <state x="160" y="24" key="CommitChangelistDialog2" timestamp="1636426191611">
+    <state x="235" y="5" key="CommitChangelistDialog2" timestamp="1636763684422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="160" y="24" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1636426191611" />
-    <state x="902" y="219" key="FileChooserDialogImpl" timestamp="1636456489030">
+    <state x="235" y="5" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1636763684422" />
+    <state x="902" y="219" key="FileChooserDialogImpl" timestamp="1636719976852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="902" y="219" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1636456489030" />
-    <state x="800" y="391" width="490" height="265" key="Github.CreateGistDialog" timestamp="1636595103888">
+    <state x="902" y="219" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1636719976852" />
+    <state x="800" y="391" width="490" height="265" key="Github.CreateGistDialog" timestamp="1636719725730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="800" y="391" width="490" height="265" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1636595103888" />
+    <state x="800" y="391" width="490" height="265" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1636719725730" />
     <state x="1072" y="379" key="Github.ShareDialog" timestamp="1635569525402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -476,70 +959,74 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1211" height="433" key="GridCell.Tab.-1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1636116874706" />
-    <state width="902" height="447" key="GridCell.Tab.0.bottom" timestamp="1636598150615">
+    <state width="1115" height="497" key="GridCell.Tab.0.bottom" timestamp="1636723842646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="447" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1636598150615" />
-    <state width="902" height="447" key="GridCell.Tab.0.center" timestamp="1636598150615">
+    <state width="1115" height="497" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1636723842646" />
+    <state width="1115" height="497" key="GridCell.Tab.0.center" timestamp="1636723842646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="447" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1636598150615" />
-    <state width="902" height="447" key="GridCell.Tab.0.left" timestamp="1636598150615">
+    <state width="1115" height="497" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1636723842646" />
+    <state width="1115" height="497" key="GridCell.Tab.0.left" timestamp="1636723842646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="447" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1636598150615" />
-    <state width="902" height="447" key="GridCell.Tab.0.right" timestamp="1636598150615">
+    <state width="1115" height="497" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1636723842646" />
+    <state width="1115" height="497" key="GridCell.Tab.0.right" timestamp="1636723842646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="447" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1636598150615" />
-    <state width="902" height="447" key="GridCell.Tab.1.bottom" timestamp="1636598150615">
+    <state width="1115" height="497" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1636723842646" />
+    <state width="1115" height="497" key="GridCell.Tab.1.bottom" timestamp="1636723842647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="447" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1636598150615" />
-    <state width="902" height="447" key="GridCell.Tab.1.center" timestamp="1636598150615">
+    <state width="1115" height="497" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1636723842647" />
+    <state width="1115" height="497" key="GridCell.Tab.1.center" timestamp="1636723842646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="447" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1636598150615" />
-    <state width="902" height="447" key="GridCell.Tab.1.left" timestamp="1636598150615">
+    <state width="1115" height="497" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1636723842646" />
+    <state width="1115" height="497" key="GridCell.Tab.1.left" timestamp="1636723842646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="447" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1636598150615" />
-    <state width="902" height="447" key="GridCell.Tab.1.right" timestamp="1636598150615">
+    <state width="1115" height="497" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1636723842646" />
+    <state width="1115" height="497" key="GridCell.Tab.1.right" timestamp="1636723842647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="447" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1636598150615" />
-    <state width="902" height="447" key="GridCell.Tab.2.bottom" timestamp="1636598150615">
+    <state width="1115" height="497" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1636723842647" />
+    <state width="1115" height="497" key="GridCell.Tab.2.bottom" timestamp="1636723842593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="447" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1636598150615" />
-    <state width="902" height="447" key="GridCell.Tab.2.center" timestamp="1636598150615">
+    <state width="1115" height="497" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1636723842593" />
+    <state width="1115" height="497" key="GridCell.Tab.2.center" timestamp="1636723842593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="447" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1636598150615" />
-    <state width="902" height="447" key="GridCell.Tab.2.left" timestamp="1636598150615">
+    <state width="1115" height="497" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1636723842593" />
+    <state width="1115" height="497" key="GridCell.Tab.2.left" timestamp="1636723842593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="447" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1636598150615" />
-    <state width="902" height="447" key="GridCell.Tab.2.right" timestamp="1636598150615">
+    <state width="1115" height="497" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1636723842593" />
+    <state width="1115" height="497" key="GridCell.Tab.2.right" timestamp="1636723842593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="447" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1636598150615" />
+    <state width="1115" height="497" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1636723842593" />
     <state width="299" height="593" key="HiddenNamespacesPopup" timestamp="1636533088983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="299" height="593" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1636533088983" />
-    <state x="380" y="0" key="SettingsEditor" timestamp="1636116547839">
+    <state x="563" y="144" key="NewModule_or_Project.wizard" timestamp="1636719979817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="380" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1636116547839" />
-    <state x="536" y="248" key="Vcs.Push.Dialog.v2" timestamp="1636426202677">
+    <state x="563" y="144" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1636719979817" />
+    <state x="380" y="0" key="SettingsEditor" timestamp="1636719983420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="536" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1636426202677" />
-    <state x="686" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1636594417155">
+    <state x="380" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1636719983420" />
+    <state x="536" y="248" key="Vcs.Push.Dialog.v2" timestamp="1636611419260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="686" y="301" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1636594417155" />
+    <state x="536" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1636611419260" />
+    <state x="315" y="173" width="816" height="544" key="com.intellij.ide.util.TipDialog" timestamp="1636763454097">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="315" y="173" width="816" height="544" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1636763454097" />
     <state x="495" y="16" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1636534496071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -552,22 +1039,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="918" y="271" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1636540988682" />
-    <state x="660" y="107" width="1009" height="778" key="find.popup" timestamp="1636456557027">
+    <state x="660" y="107" width="1009" height="778" key="find.popup" timestamp="1636720047708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="660" y="107" width="1009" height="778" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1636456557027" />
+    <state x="660" y="107" width="1009" height="778" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1636720047708" />
     <state x="630" y="267" key="git4idea.merge.GitPullDialog" timestamp="1635899499865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="630" y="267" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1635899499865" />
-    <state x="262" y="177" key="new project wizard" timestamp="1636456496666">
+    <state x="262" y="177" key="new project wizard" timestamp="1636712079938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="262" y="177" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1636456496666" />
-    <state x="681" y="77" key="refactoring.ChangeSignatureDialog" timestamp="1636596381966">
+    <state x="262" y="177" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1636712079938" />
+    <state x="681" y="77" key="refactoring.ChangeSignatureDialog" timestamp="1636716460719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="681" y="77" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1636596381966" />
+    <state x="681" y="77" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1636716460719" />
     <state x="623" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1636115215856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
